@@ -3,18 +3,15 @@
 Function decoding json file.
 
 # Quickstart
-
-- Have to use  module pprint_json.py after python3 with argument "name_of_file.json" in terminal.
-
-- If use module in terminal without argument. You can see invite message "input file name.json: ", after should enter "name_of_file.json"
+**Ways to use:**
+- Have to use  module `pprint_json.py` after `python3` with argument `name_file.json` in terminal.
+- If use module in terminal without argument. You can see invite message `input file name.json: `, after should enter `name_file.json`
 
 
 Example of script launch on Linux, Python 3.5:
 
 ```bash
-
-$ python3 pprint_json.py <name_of_file.json>
-
+$ python3 pprint_json.py <name_file.json>
 [
   {
       "Cells": {
@@ -73,7 +70,6 @@ $ python3 pprint_json.py <name_of_file.json>
       "Id": "79742784-9ef3-4543-bc98-a219a8903c18",
       "Number": 1
   },
-
 ```
 
 # Project Goals
