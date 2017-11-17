@@ -3,9 +3,9 @@ import json
 
 
 def load_data():
-    path = open(input_file(), 'r')
-    data = json.load(path)
-    return data
+    got_data = open(input_file(), 'r')
+    json_content = json.load(got_data)
+    return json_content
 
 
 def pretty_print_json():
