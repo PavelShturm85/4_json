@@ -5,8 +5,6 @@ Function decoding json file.
 # Quickstart
 **Ways to use:**
 - Have to use  module `pprint_json.py` after `python3` with argument `name_file.json` in terminal.
-- If use module in terminal without argument. You can see invite message `input file name.json: `, after should enter `name_file.json`
-
 
 Example of script launch on Linux, Python 3.5:
 
