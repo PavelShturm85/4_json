@@ -13,9 +13,9 @@ def pretty_print_json(uploaded_data):
                                 sort_keys=True,
                                 indent=4,
                                 ensure_ascii=False)
-    return print(pretty_content)
+    return pretty_content
 
 
 if __name__ == '__main__':
     content = load_data(sys.argv[1])
-    pretty_print_json(content)
+    print(pretty_print_json(content))
