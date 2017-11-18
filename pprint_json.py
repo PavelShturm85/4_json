@@ -17,5 +17,5 @@ def pretty_print_json(uploaded_data):
 
 
 if __name__ == '__main__':
-    data = load_data(sys.argv[1])
-    pretty_print_json(data)
+    content = load_data(sys.argv[1])
+    pretty_print_json(content)
